@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.home-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.image{
+  height: 60px;
+  width: 100px;
+}
+.images{
+  height: 150px;
+  width: 300px;
+}
+.login-class {
+  background-color: coral;
+  width: 600px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  border-radius: 20px;
+}
+.login-container {
+  display: flex;
+}
+.login-form {
+  margin: 25px;
+}
+.login-form input {
+  height: 40px;
+  width: 400px;
+  margin: 25px;
+  border-radius: 20px;
+  margin-left: 75px;
+}
+.login-form label {
+  width: 230px;
+  text-align: right;
+  margin-left: 75px;
+}
+.login-submit-botton {
+  margin-bottom: 40px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-submit-botton p {
+  text-align: center;
+}
+.submit{
+  height: 45px;
+  font-size: 1rem;
+  border: 2px solid blue;
+  width: 150px;
+  font-family: inherit;
+  font-weight: bold;
+  background: transparent;
+  color: blue;
+  transition: background 200ms ease-in, color 200ms ease-in;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+  margin-left: 105px;
+  margin-top: 10px;
+}
+.submit:hover {
+  color: whitesmoke;
+  background-color:black;
+  transform: scale(1.08);
+}
+.login-submit-botton a {
+  text-decoration: none;
+  color: blue;
+}
+.login-submit-botton a:hover {
+  text-decoration: underline;
+}
+.title {
+  margin-left: 180px;
+}
+.titles{
+  color:blue;
+  font-size: 30px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  margin-left: 80px;
+}
+.fogot {
+  position: relative;
+  margin-left: 200px;
+  cursor: pointer;
+  text-decoration: none;
+  color: blue;
+}
+.texa{
+  margin-top: 20px;
+  width: 505px;
+  margin-left: 22px;
+  height: 100px;
+}
+.errors-msg {
+  font-size: 15px;
+  color: red;
+  margin-left: 30px;
+  margin-top: -20px;
+}
+.submits{
+  height: 45px;
+  font-size: 1rem;
+  border: 2px solid blue;
+  width: 250px;
+  font-family: inherit;
+  font-weight: bold;
+  background: transparent;
+  color: blue;
+  transition: background 200ms ease-in, color 200ms ease-in;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+  margin-left: 105px;
+  margin-top: 10px;
+}
+.submits:hover {
+  color: whitesmoke;
+  background-color:black;
+  transform: scale(1.08);
+}
+.login-submits-botton a {
+  text-decoration: none;
+  color: blue;
+}
+.login-submit-botton a:hover {
+  text-decoration: underline;
+}
